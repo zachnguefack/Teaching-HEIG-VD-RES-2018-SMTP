@@ -42,8 +42,10 @@ public class configManager implements IconfigManager{
             String line = reader.readLine();
             while (line != null) {
                 Mail mail = new Mail();
-                StringBuilder body = new StringBuilder(); // usage de cette structure pour gagner en memoire lors des "append"
-                while ((line != null) && (!line.equals("--"))) { //parcours jusqu'au separateur de mail "@@@"
+                // usage de cette structure pour gagner en memoire lors des "append"
+                StringBuilder body = new StringBuilder();
+                
+                while ((line != null) && (!line.equals("--"))) { 
 
                     if (line.indexOf("subject") != -1) { //on regarde s'il y'a du texte après "subject" 
                         String str[] = line.split(":");

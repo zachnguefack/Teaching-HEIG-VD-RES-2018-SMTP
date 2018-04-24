@@ -10,5 +10,9 @@ package mail;
  * @author zacharie && Lankeu
  */
 public class Person {
+
+    public Person(String string, String string0, String adr) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
