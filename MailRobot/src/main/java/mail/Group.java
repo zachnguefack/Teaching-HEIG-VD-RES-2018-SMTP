@@ -8,9 +8,11 @@ package mail;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- *description: cette classe spécifit toutes les actions que nous pouvons 
- * effectué sur un ggroupe
+/** 
+ *  @authors   zacharie nguefack et lankeu cedric
+ *
+ *	description: cette classe spécifit toutes les actions que nous pouvons 
+ * effectué sur un groupe
  * @author zacharie && Lankeu
  */
 public class Group {
