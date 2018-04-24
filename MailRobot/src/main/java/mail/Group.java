@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  *description: cette classe spécifit toutes les actions que nous pouvons 
- * effectué sur un ggroupe
+ * effectué sur un groupe
  * @author zacharie && Lankeu
  */
 public class Group {

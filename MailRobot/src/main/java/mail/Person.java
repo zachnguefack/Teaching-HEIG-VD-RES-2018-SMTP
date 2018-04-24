@@ -4,15 +4,46 @@
  * and open the template in the editor.
  */
 package mail;
-
-/**
+ /*
+ *@authors   zacharie nguefack et lankeu cedric
  *
- * @author zacharie && Lankeu
+ * Permet de stocker des personnes(nom , prenom et adresse mail des victimes)
+ *
  */
-public class Person {
+public class Person 
+{
+	private String firstname;
+    private String lastname;
+    private String emailAddress;
 
-    public Person(String string, String string0, String adr) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Person(String firstname, String lastname, String mailAdress) {
+        this.emailAddress = mailAdress;
+        this.firstname = firstname;
+        this.lastname = lastname;  
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
+    
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
+
+    public String getMailAdress() {
+        return emailAddress;
+    }
+
+    public void setMailAdress(String mailAdress) {
+        this.emailAddress = mailAdress;
     }
     
 }
