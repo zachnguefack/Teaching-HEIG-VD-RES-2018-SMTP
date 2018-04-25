@@ -8,23 +8,16 @@ package mail;
 import java.util.LinkedList;
 import java.util.List;
 
-<<<<<<< HEAD
-/**
- * description: cette classe spécifit toutes les actions que nous pouvons
- * effectué sur un ggroupe
- *
-=======
 /** 
  *  @authors   zacharie nguefack et lankeu cedric
  *
  *	description: cette classe spécifit toutes les actions que nous pouvons 
  * effectué sur un groupe
->>>>>>> 6c3254e5d3ab3b86b5ba632ad8e8f13cf41df293
  * @author zacharie && Lankeu
  */
 public class Group {
-
-    private List<Person> groupMembers = new LinkedList<>();
+    
+    private List<Person> groupMembers = new LinkedList<>();    
 
     public int size() {
         return groupMembers.size();
@@ -39,18 +32,18 @@ public class Group {
     }
 
     public void add(Person p) {
-        groupMembers.add(p);
+         groupMembers.add(p);
     }
 
     public void remove(Person p) {
-        groupMembers.remove(p);
+       groupMembers.remove(p);
     }
 
     public void clear() {
         groupMembers.clear();
     }
-
-    public List<Person> getMembers() {
-        return groupMembers;
-    }
+    
+    public List<Person> getMembers(){
+       return groupMembers;
+   }  
 }

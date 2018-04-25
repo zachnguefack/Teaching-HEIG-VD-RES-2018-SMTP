@@ -32,7 +32,7 @@ public class configManager implements IconfigManager {
     public configManager() throws IOException {
         victims = loadAddressFromFile("victims.utf8");
         messages = loadMailFromFile("messages.utf8");
-        loadPropertie("config.properties");
+        loadPropertie("configuration.properties");
     }
 
     @Override
